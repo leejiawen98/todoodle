@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todoodle-66b4f": {
+      "hosting": {
+        "Todoodle": [
+          "todoodle-66b4f"
+        ]
+      }
+    }
+  }
+}

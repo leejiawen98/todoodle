@@ -1,0 +1,107 @@
+::ng-deep .mat-checkbox-frame, ::ng-deep .mat-focused .mat-form-field-label, ::ng-deep .mat-form-field-label {
+    border-color: #90AD54 !important;
+}
+
+::ng-deep .mat-form-field-underline, .task:not(:hover) .moreButton {
+    display:none;
+} 
+
+.moreButton {
+    float:right;
+    padding-top:5px;
+}
+
+.task:hover .moreButton, ::ng-deep .mat-focused.mat-menu-content .moreButton {
+    display:block;
+}
+
+::ng-deep .mat-menu-content {
+    background-color: #90AD54 !important;
+}
+
+.task:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+::ng-deep .mat-spinner circle{
+    stroke: #90AD54 !important;
+}
+
+.headerText {
+    color:#90AD54; 
+    margin-top:15px; 
+    font-weight: bold; 
+    flex:8;
+}
+
+.changeUser {
+    font-size: 15px; 
+    font-weight: bold; 
+    color: #a88d48;
+}
+
+.username {
+    font-weight: bold; 
+    color:#90AD54;
+}
+
+.list {
+    border: 2px solid #90AD54; 
+    width: 500px; 
+    background-color: white;
+}
+
+.listHeader {
+    border: 2px solid #90AD54; 
+    background-color: #90AD54; 
+    color:white; 
+    font-weight: bold; 
+    font-size: 30px; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.spinner {
+    margin: 10px; 
+    margin-left:220px; 
+}
+
+.checkbox {
+    font-size: 20px; 
+    padding:10px; 
+    width:80%
+}
+
+.imageTask {
+    border-radius: 5px; 
+    padding-left:10px
+}
+
+.addTask {
+    border: 1px dotted #90AD54; 
+    border-bottom-width: 0px; 
+    border-right-width: 0px; 
+    border-left-width: 0px; 
+    height:50px
+}
+
+.inputTask {
+    width:70%; 
+    padding-left:10px;
+}
+
+.inputImage {
+    padding:5px;
+    margin-top:10px
+}
+
+.inputTaskButton{
+    float:right; 
+    padding:5px
+}
+
+.imageButton {
+    float:right; 
+    background-color: transparent; 
+    padding:5px
+}

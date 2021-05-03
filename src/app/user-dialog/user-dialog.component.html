@@ -1,0 +1,12 @@
+<h1 style="float:left">Enter a username</h1> 
+<div id="dialogContent">
+    <mat-form-field class="inputUsername" hideRequiredMarker>
+        <input matInput name="user" type="text" placeholder="Username" [(ngModel)]="data.user" required="true"/>
+    </mat-form-field>
+    
+    <button mat-button class="inputUsernameButton" (click)="onNoClick()" [mat-dialog-close]="data.user" cdkFocusInitial>
+        <mat-icon color="secondary" class="inputButtonIcon">arrow_right_alt</mat-icon>
+    </button>
+    
+</div>
+<p>Your to-do list will be saved with your username</p>

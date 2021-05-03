@@ -1,0 +1,33 @@
+::ng-deep .mat-form-field-underline {
+    display:block;
+} 
+
+::ng-deep .mat-focused .mat-form-field-label, ::ng-deep .mat-form-field-label{
+    color: lightgray !important;
+}
+
+.inputUsername {
+    width:60%; 
+    padding-left:10px; 
+    float:left; 
+    font-size: 20px;
+}
+
+.inputUsernameButton {
+    float:right; 
+    padding:10px; 
+    text-align: center;
+}
+
+.inputButtonIcon {
+    font-size:40px; 
+    padding:10px; 
+    padding-bottom:20px
+}
+
+p {
+    width:200px; 
+    font-size: 15px; 
+    color: lightgray; 
+    font-style: italic;
+}
